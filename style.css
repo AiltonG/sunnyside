@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+#header{
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: cover;
+
+    height: 100vh;
+}
+/* ------------------------- CABECALHO--------------------------- */
+#cabecalho{
+    /* border: 1px solid red; */
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    padding-left: 30px;
+}
+
+#opcoes{
+    padding-right: 30px;
+}
+#opcoes > a{
+    margin: 20px;
+}
+
+#title{
+    /* border: 1px solid green; */
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+}
+#title > h1{
+    color: white;
+    font-size: 90px;
+}
+/* ---------------------------------------------------- */
