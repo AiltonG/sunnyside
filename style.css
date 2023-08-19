@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'Barlow';
+    src: url("./font/barlow/Barlow-Regular.ttf");
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url('./font/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+}
+
+
 body{
     margin: 0;
 }
@@ -77,6 +87,9 @@ body{
 }
 .g1{
     grid-area: i1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .g2{
     grid-area: i2;
@@ -108,4 +121,12 @@ body{
 }
 .g11{
     grid-area: i11;
+}
+
+/* ----------------------TEXTO G1------------------------------ */
+#textog1{
+    width: 70%;
+    height: 70%;
+
+    background-color: antiquewhite;
 }
