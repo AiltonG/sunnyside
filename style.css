@@ -186,6 +186,24 @@ body{
 
 .g7{
     grid-area: i7;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+#client{
+    width: 100%;
+    text-align: center;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 25%;
+    margin: 5px;
+
+    text-align: center
+    
+     ;
 }
 /* imagens decorativas */
 .g8{
