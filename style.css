@@ -107,6 +107,7 @@ body{
     grid-area: i0;
     /* border: 1px solid red; */
 }
+/*--------------G1--------------*/
 .g1{
     grid-area: i1;
     display: flex;
@@ -117,12 +118,47 @@ body{
     width: 60%;
 
 }
+#learng1{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    /* border: 1px solid rgb(0, 26, 255); */
+}
+#learng1 h3{
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#learng1 div{
+    display: none;
+
+    position: absolute;
+    background-color: rgb(250, 212, 0);
+    border-radius: 100px;
+
+    height: 10px;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
+}
+#learng1:hover > div{
+    display: flex;
+}
+#learng1:hover{
+    cursor: pointer;
+}
+
+
 .g2{
     grid-area: i2;
 }
 .g3{
     grid-area: i3;
 }
+
+
+/*------------G4-------------*/
 .g4{
     grid-area: i4;
     display: flex;
@@ -130,9 +166,43 @@ body{
     justify-content: center;
 }
 #textog4{
+    display: flex;
+    flex-direction: column;
     width: 70%;
+
+}
+#learng4{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    /* border: 1px solid rgb(0, 26, 255); */
+}
+#learng4 h3{
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#learng4 div{
+    display: none;
+
+    position: absolute;
+    background-color: rgb(254, 120, 103);
+    border-radius: 100px;
+
+    height: 10px;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
+}
+#learng4:hover > div{
+    display: flex;
+}
+#learng4:hover{
+    cursor: pointer;
 }
 
+/*------------G5-------------*/
 .g5{
     grid-area: i5;
     height: 100%;
