@@ -245,5 +245,36 @@ body{
 .g11{
     grid-area: i11;
 }
+/* ----------------------footer------------------------------ */
+footer{
+    background-color: rgb(146, 209, 193);
+    color: hsl(168, 34%, 41%);
+    height: 40vh;
 
-/* ----------------------TEXTO G1------------------------------ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer > img{
+    height: 10%;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 30%;
+    /* border: 1px solid red; */
+}
+footer li{
+    width: 100px;
+    /* border: 1px solid red;  */
+}
+.attribution{
+    background-color: rgb(146, 209, 193);
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
