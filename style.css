@@ -254,6 +254,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 footer > img{
     height: 10%;
@@ -264,11 +265,17 @@ footer ul{
     justify-content: space-evenly;
 
     width: 30%;
-    /* border: 1px solid red; */
 }
 footer li{
     width: 100px;
-    /* border: 1px solid red;  */
+
+}
+footer li p{
+    color: hsl(167, 40%, 24%);
+}
+#footerimgs{
+    display: flex;
+    gap: 30px;
 }
 .attribution{
     background-color: rgb(146, 209, 193);
