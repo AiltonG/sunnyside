@@ -13,7 +13,7 @@ Your users should be able to:
 
 ### Screenshot
 
-![](./desing/desktop-preview.jpg)
+![](./screenshot)
 
 ### Links
 
