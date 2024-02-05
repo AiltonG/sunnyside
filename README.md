@@ -10,3 +10,12 @@ Your users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+
+### Screenshot
+
+![](./desing/desktop-preview.jpg)
+
+### Links
+
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/sunnyside-solution-in-html-and-css-pLIPTLX9UG)
+- Live Site URL: [live site](https://ailtong.github.io/sunnyside/)
